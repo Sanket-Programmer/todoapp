@@ -2,10 +2,14 @@ body {
   background-image: linear-gradient(90deg,rgb(149, 204, 253),rgb(145, 141, 254));
   margin: 0px;
   padding: 0px;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .heading{
-  background-color: white;
+  background-color: rgb(220, 238, 255);
   width: 30vw;
   height: 40vw;
   display: flex;
@@ -21,7 +25,6 @@ body {
 .heading .title h1{
  margin: 0;
  color: rgb(0, 0, 0);
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  font-size: 3vw;
 }
 
@@ -47,6 +50,7 @@ body {
   position: absolute;
   top: 7vw;
   left: 0.2vw;
+  border: 1px solid rgb(234 88 12);
 }
 
 .input .input_text{
@@ -70,7 +74,7 @@ body {
   border-radius: 5vw;
   background-color: rgb(234 88 12);
   width: 7vw;
-  height: 4vw;
+  height: 4.2vw;
   color: white;
   font-size: 1.25vw;
   line-height: 2vw;
@@ -85,7 +89,6 @@ body {
 input[type="text"]
 {
     font-size: 1.25vw;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .list{
@@ -95,7 +98,6 @@ gap: 2vw;
 margin-top: 1.5vw;
 position: relative;
 top: 12vw;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .list p{
@@ -164,6 +166,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     margin-top: 3.5vw;
     position: relative;
     top: 30vw;
+    left: 3vw;
+    width: 73vw;
   }
 
   .input_text::placeholder{
@@ -239,6 +243,8 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     margin-top: 3vw;
     position: relative;
     top: 16vw;
+    left: 2vw;
+    width: 76vw;
   }
 
   .input_text::placeholder{
