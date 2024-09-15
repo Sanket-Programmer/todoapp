@@ -9,7 +9,7 @@ body {
 }
 
 .heading{
-  background-color: rgb(220, 238, 255);
+  background-color: rgb(255, 255, 255);
   width: 30vw;
   height: 40vw;
   display: flex;
@@ -158,6 +158,8 @@ top: 12vw;
     height: 10vw;
     width: 18vw;
     font-size: 4vw;
+    position: relative;
+    left: 0.3vw;
   }
 
   .list{
