@@ -201,10 +201,10 @@ top: 12vw;
 
 @media (min-width:431px) and (max-width:1024px){
   body{
-    height: 80vw;
+    height: 125vw;
   }
   .heading{
-    height: 60vw;
+    height: 105vw;
     width: 80vw;
     position: relative;
     left: 7vw;
